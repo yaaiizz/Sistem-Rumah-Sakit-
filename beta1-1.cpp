@@ -246,7 +246,7 @@ void submenuPembayaran() {
     cout << "| 4. Proses Pembayaran                     |" << endl;
     cout << "| 5. Kembali ke Menu Utama                 |" << endl;
     cout << "============================================" << endl;
-    cout << "Silakan pilih menu (1-4): ";
+    cout << "Silakan pilih menu (1-5): ";
 }
 
 // Fungsi untuk menambahkan pembayaran baru
@@ -549,7 +549,7 @@ int main() {
                             cout << "Pilihan tidak valid!" << endl;
                             break;
                     }
-                } while (pilihanPembayaran != 4);
+                } while (pilihanPembayaran != 5);
                 break;
             }
             case 4: {
